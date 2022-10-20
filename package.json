@@ -1,7 +1,7 @@
 {
-  "name": "sambilsewa-icon",
+  "name": "ss-icon",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "types": "src/index.d.ts",
   "files": [
@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "dev": "vite",
+    "manifest": "node script/tojson.js",
     "generate": "node script/generate.js && yarn prettier",
     "prettier": "prettier --write './**/*.{tsx,ts,js}'",
     "build": "tsc && vite build",
