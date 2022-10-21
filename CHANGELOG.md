@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.9](https://github.com/irfancoder/ss-icon/compare/v1.0.8...v1.0.9) (2022-10-21)
+
+
+### Bug Fixes
+
+* constant stroke & fill color ([5e7dc04](https://github.com/irfancoder/ss-icon/commit/5e7dc0415514186a2fb627de5e84586207f8ed6e))
+
 ## [1.0.8](https://github.com/irfancoder/ss-icon/compare/v1.0.7...v1.0.8) (2022-10-21)
 
 
