@@ -25,12 +25,12 @@ const Add: FunctionComponent<AddProps> = forwardRef<SVGSVGElement, AddProps>(
         {...rest}
       >
         <g clip-path="url(#clip0_90_1713)">
-          <path d="M12 4V20" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M4 12H20" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M12 4V20" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4 12H20" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </g>
         <defs>
           <clipPath id="clip0_90_1713">
-            <rect width="24" height="24" fill="white"></rect>
+            <rect width="24" height="24" fill={color}></rect>
           </clipPath>
         </defs>
       </svg>

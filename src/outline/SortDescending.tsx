@@ -25,21 +25,21 @@ const SortDescending: FunctionComponent<SortDescendingProps> = forwardRef<SVGSVG
         {...rest}
       >
         <g clip-path="url(#clip0_300_6430)">
-          <path d="M4 6H13" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M4 12H11" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M4 18H11" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4 6H13" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4 12H11" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M4 18H11" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           <path
             d="M15 15L18 18L21 15"
-            stroke="#000929"
+            stroke={color}
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
           ></path>
-          <path d="M18 6V18" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M18 6V18" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </g>
         <defs>
           <clipPath id="clip0_300_6430">
-            <rect width="24" height="24" fill="white"></rect>
+            <rect width="24" height="24" fill={color}></rect>
           </clipPath>
         </defs>
       </svg>

@@ -26,7 +26,7 @@ const DocumentTwotone: FunctionComponent<DocumentTwotoneProps> = forwardRef<SVGS
       >
         <path
           d="M21 6.99976V16.9998C21 19.9998 19.5 21.9998 16 21.9998H8C4.5 21.9998 3 19.9998 3 16.9998V6.99976C3 3.99976 4.5 1.99976 8 1.99976H16C19.5 1.99976 21 3.99976 21 6.99976Z"
-          stroke="#000929"
+          stroke={color}
           stroke-width="2"
           stroke-miterlimit="10"
           stroke-linecap="round"
@@ -35,7 +35,7 @@ const DocumentTwotone: FunctionComponent<DocumentTwotoneProps> = forwardRef<SVGS
         <path
           opacity="0.4"
           d="M14.5001 4.5V6.5C14.5001 7.6 15.4001 8.5 16.5001 8.5H18.5001"
-          stroke="#000929"
+          stroke={color}
           stroke-width="2"
           stroke-miterlimit="10"
           stroke-linecap="round"
@@ -44,7 +44,7 @@ const DocumentTwotone: FunctionComponent<DocumentTwotoneProps> = forwardRef<SVGS
         <path
           opacity="0.4"
           d="M7.99994 13.0002H11.9999"
-          stroke="#000929"
+          stroke={color}
           stroke-width="2"
           stroke-miterlimit="10"
           stroke-linecap="round"
@@ -53,7 +53,7 @@ const DocumentTwotone: FunctionComponent<DocumentTwotoneProps> = forwardRef<SVGS
         <path
           opacity="0.4"
           d="M7.99994 16.9998H15.9999"
-          stroke="#000929"
+          stroke={color}
           stroke-width="2"
           stroke-miterlimit="10"
           stroke-linecap="round"

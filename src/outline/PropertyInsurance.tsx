@@ -27,21 +27,21 @@ const PropertyInsurance: FunctionComponent<PropertyInsuranceProps> = forwardRef<
         <g clip-path="url(#clip0_86_2064)">
           <path
             d="M4.22222 12H2L12 2L22 12H19.7778"
-            stroke="#000929"
+            stroke={color}
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
           ></path>
           <path
             d="M4.22223 12V19.7778C4.22223 20.3671 4.45636 20.9324 4.8731 21.3491C5.28985 21.7659 5.85508 22 6.44445 22H17.5556C18.1449 22 18.7102 21.7659 19.1269 21.3491C19.5437 20.9324 19.7778 20.3671 19.7778 19.7778V12"
-            stroke="#000929"
+            stroke={color}
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
           ></path>
           <path
             d="M9 13.5L11 15.5L15 11.5"
-            stroke="#000929"
+            stroke={color}
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -49,7 +49,7 @@ const PropertyInsurance: FunctionComponent<PropertyInsuranceProps> = forwardRef<
         </g>
         <defs>
           <clipPath id="clip0_86_2064">
-            <rect width="24" height="24" fill="white"></rect>
+            <rect width="24" height="24" fill={color}></rect>
           </clipPath>
         </defs>
       </svg>

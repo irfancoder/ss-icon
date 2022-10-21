@@ -46,5 +46,15 @@
     ".": "./dist/src/ss-icon.es.js",
     "./outline": "./dist/src/ss-icon.es.js",
     "./bold": "./dist/src/ss-icon2.es.js"
+  },
+  "typesVersions": {
+    "*": {
+      "outline": [
+        "./index.d.ts"
+      ],
+      "bold": [
+        "./index.d.ts"
+      ]
+    }
   }
 }

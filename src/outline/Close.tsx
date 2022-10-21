@@ -25,12 +25,12 @@ const Close: FunctionComponent<CloseProps> = forwardRef<SVGSVGElement, CloseProp
         {...rest}
       >
         <g clip-path="url(#clip0_90_2010)">
-          <path d="M18 6L6 18" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M6 6L18 18" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M18 6L6 18" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M6 6L18 18" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </g>
         <defs>
           <clipPath id="clip0_90_2010">
-            <rect width="24" height="24" fill="white"></rect>
+            <rect width="24" height="24" fill={color}></rect>
           </clipPath>
         </defs>
       </svg>

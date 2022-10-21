@@ -27,7 +27,7 @@ const ChevronDown: FunctionComponent<ChevronDownProps> = forwardRef<SVGSVGElemen
         <g clip-path="url(#clip0_86_1267)">
           <path
             d="M5 8.5L12 15.5L19 8.5"
-            stroke="#000929"
+            stroke={color}
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -35,7 +35,7 @@ const ChevronDown: FunctionComponent<ChevronDownProps> = forwardRef<SVGSVGElemen
         </g>
         <defs>
           <clipPath id="clip0_86_1267">
-            <rect width="24" height="24" fill="white"></rect>
+            <rect width="24" height="24" fill={color}></rect>
           </clipPath>
         </defs>
       </svg>

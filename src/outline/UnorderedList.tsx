@@ -25,16 +25,16 @@ const UnorderedList: FunctionComponent<UnorderedListProps> = forwardRef<SVGSVGEl
         {...rest}
       >
         <g clip-path="url(#clip0_184_2648)">
-          <path d="M9 6H20" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M9 12H20" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M9 18H20" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M5 6V6.01" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M5 12V12.01" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M5 18V18.01" stroke="#000929" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M9 6H20" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M9 12H20" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M9 18H20" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M5 6V6.01" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M5 12V12.01" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M5 18V18.01" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </g>
         <defs>
           <clipPath id="clip0_184_2648">
-            <rect width="24" height="24" fill="white"></rect>
+            <rect width="24" height="24" fill={color}></rect>
           </clipPath>
         </defs>
       </svg>

@@ -27,7 +27,7 @@ const Check: FunctionComponent<CheckProps> = forwardRef<SVGSVGElement, CheckProp
         <g clip-path="url(#clip0_119_2471)">
           <path
             d="M5 12L10 17L20 7"
-            stroke="#000929"
+            stroke={color}
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -35,7 +35,7 @@ const Check: FunctionComponent<CheckProps> = forwardRef<SVGSVGElement, CheckProp
         </g>
         <defs>
           <clipPath id="clip0_119_2471">
-            <rect width="24" height="24" fill="white"></rect>
+            <rect width="24" height="24" fill={color}></rect>
           </clipPath>
         </defs>
       </svg>

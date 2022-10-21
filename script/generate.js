@@ -47,6 +47,18 @@ const attrsToString = (attrs) => {
     .join(" ")
 }
 
+const parseSvgContent = (svg) => {
+  const parser = {
+    stroke: "stroke={color}",
+    fill: "fill={color}",
+  }
+  return svg
+    .replace(/clippath/g, "clipPath")
+    .replace(/maskunits/g, "maskUnits")
+    .replace(/stroke=\"([^']*?)\"/g, parser.stroke)
+    .replace(/fill=\"([^']*?)\"/g, parser.fill)
+}
+
 icons.forEach((name) => {
   const isOutline = name.includes("outline")
   const ComponentName = upperCamelCase(name.replace("-outline", "").replace("-bold", ""))
@@ -79,7 +91,7 @@ icons.forEach((name) => {
     const ${ComponentName}: FunctionComponent<${ComponentName}Props> = forwardRef<SVGSVGElement, ${ComponentName}Props>(({ className, color = 'currentColor', size = 16, ...rest }, ref) => {
         return (
             <svg ref={ref} ${attrsToString(defaultAttrs)}>
-                ${IconsManifest[name].replace(/clippath/g, "clipPath").replace(/maskunits/g, "maskUnits")}
+                ${parseSvgContent(IconsManifest[name])}
             </svg>
         )
     })

@@ -26,14 +26,14 @@ const CheckCircle: FunctionComponent<CheckCircleProps> = forwardRef<SVGSVGElemen
       >
         <path
           d="M12.0001 21.9999C17.5001 21.9999 22.0001 17.4999 22.0001 11.9999C22.0001 6.49988 17.5001 1.99988 12.0001 1.99988C6.50012 1.99988 2.00012 6.49988 2.00012 11.9999C2.00012 17.4999 6.50012 21.9999 12.0001 21.9999Z"
-          stroke="#000929"
+          stroke={color}
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         ></path>
         <path
           d="M7.74988 12L10.5799 14.83L16.2499 9.17004"
-          stroke="#000929"
+          stroke={color}
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
