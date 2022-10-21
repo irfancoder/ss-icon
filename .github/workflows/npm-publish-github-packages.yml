@@ -19,9 +19,9 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: "@irfancoder"
+          scope: ${{ github.repository_owner }}
           always-auth: true
-      - run: yarn install
+      - run: yarn
       - run: yarn build
       - run: npm publish
         env:
