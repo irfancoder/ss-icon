@@ -1,11 +1,18 @@
 {
   "name": "ss-icon",
+  "description": "Icon component library. Contains scripts to convert SVGs into React component.",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "types": "src/index.d.ts",
+  "types": "index.d.ts",
+  "author": {
+    "name": "irfanismail",
+    "email": "irfan.ismail96@gmail.com",
+    "url": "https://irfanismail.com"
+  },
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@irfancoder"

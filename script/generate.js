@@ -4,7 +4,6 @@ import { dirname, join } from "path"
 import fs from "fs"
 import { fileURLToPath } from "url"
 import { createRequire } from "module"
-import { format } from "prettier"
 import upperCamelCase from "uppercamelcase"
 
 const require = createRequire(import.meta.url)
@@ -30,7 +29,7 @@ export interface IconProps extends SVGAttributes<SVGElement> {
 export type Icon = FC<IconProps>;
 `
 
-fs.writeFileSync(join(rootDir, "src", "index.d.ts"), initialTypeDefinitions, "utf-8")
+fs.writeFileSync(join(rootDir, "index.d.ts"), initialTypeDefinitions, "utf-8")
 fs.existsSync(outline_entry) && fs.unlinkSync(outline_entry)
 fs.existsSync(bold_entry) && fs.unlinkSync(bold_entry)
 
@@ -88,15 +87,6 @@ icons.forEach((name) => {
     export default ${ComponentName}
   `
 
-  // const component = format({
-  //     source: element,
-  //     options: {
-  //         bracketSpacing: true,
-  //         singleQuote: true,
-  //         parser: 'flow'
-  //     }
-  // })
-
   fs.writeFileSync(location, element, "utf-8")
 
   console.log("Successfully built", ComponentName)
@@ -109,5 +99,5 @@ icons.forEach((name) => {
     : fs.appendFileSync(bold_entry, exportString, "utf-8")
 
   const exportTypeString = `export const ${ComponentName}: Icon;\n`
-  fs.appendFileSync(join(rootDir, "src", "index.d.ts"), exportTypeString, "utf-8")
+  fs.appendFileSync(join(rootDir, "index.d.ts"), exportTypeString, "utf-8")
 })
