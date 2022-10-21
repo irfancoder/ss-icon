@@ -4,8 +4,12 @@
 name: publish-npm-package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      master
+    
+#   release:
+#     types: [created]
 
 jobs:
   build:
@@ -30,9 +34,9 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
-          scope: "@irfancoder"
+          scope: ${{ github.repository_owner }}
           always-auth: true
-      - run: yarn install
-      - run: yarn publish
+      - run: yarn
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
