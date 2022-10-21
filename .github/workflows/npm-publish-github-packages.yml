@@ -3,13 +3,9 @@
 
 name: publish-npm-package
 
-on:
-  push:
-    branches:
-      master
-    
-#   release:
-#     types: [created]
+on:  
+  release:
+    types: [created]
 
 jobs:
   build:
