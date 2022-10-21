@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@irfancoder"
+  },
   "scripts": {
     "dev": "vite",
     "manifest": "node script/tojson.js",
