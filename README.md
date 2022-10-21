@@ -33,11 +33,11 @@ Now you can install the package as usual.
 Example:
 
 ```js
-    import { Add } from '@irfancoder/ss-icon/outline'
-    import { User } from '@irfancoder/ss-icon/bold'
-    //...
-    <Add className="" size={20} color="#000"  ... />
-    <Bold className="" size={20} color="#000"  ... />
+import { Add } from '@irfancoder/ss-icon/outline'
+import { User } from '@irfancoder/ss-icon/bold'
+
+<Add className="" size={20} color="#000"  ... />
+<User className="" size={20} color="#000"  ... />
 ```
 
 ## Development
