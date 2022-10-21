@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/irfancoder/ss-icon/compare/v1.0.1...v1.0.2) (2022-10-21)
+
+
+### Bug Fixes
+
+* npm workflow ([111b66f](https://github.com/irfancoder/ss-icon/commit/111b66f1783e7f90db933f1565d70b5ee074f332))
+
 ## [1.0.1](https://github.com/irfancoder/ss-icon/compare/v1.0.0...v1.0.1) (2022-10-21)
 
 
