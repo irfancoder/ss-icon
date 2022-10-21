@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/irfancoder/ss-icon/compare/v1.0.2...v1.0.3) (2022-10-21)
+
+
+### Bug Fixes
+
+* readme & workflow ([3d44ac2](https://github.com/irfancoder/ss-icon/commit/3d44ac2a480be82ba39a04726f6c2ae366ed670e))
+
 ## [1.0.2](https://github.com/irfancoder/ss-icon/compare/v1.0.1...v1.0.2) (2022-10-21)
 
 
