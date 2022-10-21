@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/irfancoder/ss-icon/compare/v1.0.6...v1.0.7) (2022-10-21)
+
+
+### Bug Fixes
+
+* trigger workflow ([78d8689](https://github.com/irfancoder/ss-icon/commit/78d8689b2ca6760b388939e1debd8614dce4c753))
+
 ## [1.0.6](https://github.com/irfancoder/ss-icon/compare/v1.0.5...v1.0.6) (2022-10-21)
 
 
