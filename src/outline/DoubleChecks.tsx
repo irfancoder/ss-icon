@@ -24,20 +24,14 @@ const DoubleChecks: FunctionComponent<DoubleChecksProps> = forwardRef<SVGSVGElem
         strokeLinejoin="round"
         {...rest}
       >
-        <g clip-path="url(#clip0_165_2409)">
-          <path
-            d="M7 12L12 17L22 7"
-            stroke={color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
+        <g clipPath="url(#clip0_165_2409)">
+          <path d="M7 12L12 17L22 7" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
           <path
             d="M12 12L17 7M2 12L7 17L2 12Z"
             stroke={color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></path>
         </g>
         <defs>

@@ -24,10 +24,10 @@ const Italic: FunctionComponent<ItalicProps> = forwardRef<SVGSVGElement, ItalicP
         strokeLinejoin="round"
         {...rest}
       >
-        <g clip-path="url(#clip0_184_2650)">
-          <path d="M11 5H17" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M7 19H13" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          <path d="M14 5L10 19" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <g clipPath="url(#clip0_184_2650)">
+          <path d="M11 5H17" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+          <path d="M7 19H13" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+          <path d="M14 5L10 19" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
         </g>
         <defs>
           <clipPath id="clip0_184_2650">

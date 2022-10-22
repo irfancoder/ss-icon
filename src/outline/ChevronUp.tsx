@@ -24,14 +24,8 @@ const ChevronUp: FunctionComponent<ChevronUpProps> = forwardRef<SVGSVGElement, C
         strokeLinejoin="round"
         {...rest}
       >
-        <g clip-path="url(#clip0_141_2706)">
-          <path
-            d="M6 15L12 9L18 15"
-            stroke={color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
+        <g clipPath="url(#clip0_141_2706)">
+          <path d="M6 15L12 9L18 15" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
         </g>
         <defs>
           <clipPath id="clip0_141_2706">

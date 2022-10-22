@@ -31,18 +31,18 @@ const Key: FunctionComponent<KeyProps> = forwardRef<SVGSVGElement, KeyProps>(
         <path
           d="M6.89001 17.49L9.19001 19.79"
           stroke={color}
-          stroke-width="2"
+          strokeWidth="2"
           stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></path>
         <path
           d="M14.5 11C15.3284 11 16 10.3284 16 9.5C16 8.67157 15.3284 8 14.5 8C13.6716 8 13 8.67157 13 9.5C13 10.3284 13.6716 11 14.5 11Z"
           fill={color}
           stroke={color}
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></path>
       </svg>
     )

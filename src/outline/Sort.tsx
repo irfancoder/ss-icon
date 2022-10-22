@@ -24,9 +24,9 @@ const Sort: FunctionComponent<SortProps> = forwardRef<SVGSVGElement, SortProps>(
         strokeLinejoin="round"
         {...rest}
       >
-        <path d="M3 7H21" stroke={color} stroke-width="2" stroke-linecap="round"></path>
-        <path d="M6 12H18" stroke={color} stroke-width="2" stroke-linecap="round"></path>
-        <path d="M10 17H14" stroke={color} stroke-width="2" stroke-linecap="round"></path>
+        <path d="M3 7H21" stroke={color} strokeWidth="2" strokeLinecap="round"></path>
+        <path d="M6 12H18" stroke={color} strokeWidth="2" strokeLinecap="round"></path>
+        <path d="M10 17H14" stroke={color} strokeWidth="2" strokeLinecap="round"></path>
       </svg>
     )
   },

@@ -24,20 +24,14 @@ const DoubleChevronLeft: FunctionComponent<DoubleChevronLeftProps> = forwardRef<
         strokeLinejoin="round"
         {...rest}
       >
-        <g clip-path="url(#clip0_200_4646)">
-          <path
-            d="M11 7L6 12L11 17"
-            stroke={color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
+        <g clipPath="url(#clip0_200_4646)">
+          <path d="M11 7L6 12L11 17" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
           <path
             d="M17 7L12 12L17 17"
             stroke={color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></path>
         </g>
         <defs>

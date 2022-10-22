@@ -24,10 +24,10 @@ const PropertyInsurance: FunctionComponent<PropertyInsuranceProps> = forwardRef<
         strokeLinejoin="round"
         {...rest}
       >
-        <g clip-path="url(#clip0_221_5950)">
+        <g clipPath="url(#clip0_221_5950)">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M2 12H4.22217V19.7778C4.22217 20.3671 4.45629 20.9324 4.87304 21.3491C5.28979 21.7659 5.85502 22 6.44439 22H17.5555C18.1449 22 18.7101 21.7659 19.1268 21.3491C19.5436 20.9324 19.7777 20.3671 19.7777 19.7778V12H19.7778H22L12 2L2 12Z"
             fill={color}
           ></path>
@@ -38,9 +38,9 @@ const PropertyInsurance: FunctionComponent<PropertyInsuranceProps> = forwardRef<
           <path
             d="M9 13.5L11 15.5L15 11.5"
             stroke={color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></path>
         </g>
         <defs>

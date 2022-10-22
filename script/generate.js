@@ -54,6 +54,12 @@ const parseSvgContent = (svg) => {
   }
   return svg
     .replace(/clippath/g, "clipPath")
+    .replace(/clip-path/g, "clipPath")
+    .replace(/clip-rule/g, "clipRule")
+    .replace(/fill-rule/g, "fillRule")
+    .replace(/stroke-linecap/g, "strokeLinecap")
+    .replace(/stroke-linejoin/g, "strokeLinejoin")
+    .replace(/stroke-width/g, "strokeWidth")
     .replace(/maskunits/g, "maskUnits")
     .replace(/stroke=\"([^']*?)\"/g, parser.stroke)
     .replace(/fill=\"([^']*?)\"/g, parser.fill)

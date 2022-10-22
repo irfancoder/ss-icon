@@ -24,14 +24,8 @@ const Check: FunctionComponent<CheckProps> = forwardRef<SVGSVGElement, CheckProp
         strokeLinejoin="round"
         {...rest}
       >
-        <g clip-path="url(#clip0_119_2471)">
-          <path
-            d="M5 12L10 17L20 7"
-            stroke={color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></path>
+        <g clipPath="url(#clip0_119_2471)">
+          <path d="M5 12L10 17L20 7" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
         </g>
         <defs>
           <clipPath id="clip0_119_2471">
