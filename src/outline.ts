@@ -1,6 +1,7 @@
 export { default as Add } from "./outline/Add"
 export { default as Apartment } from "./outline/Apartment"
 export { default as Archive } from "./outline/Archive"
+export { default as Arrow } from "./outline/Arrow"
 export { default as Bath } from "./outline/Bath"
 export { default as Bed } from "./outline/Bed"
 export { default as BestPrice } from "./outline/BestPrice"

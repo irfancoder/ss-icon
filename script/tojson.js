@@ -42,7 +42,7 @@ export default buildIconsObject
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const IN_DIR = resolve(__dirname, "../src/icons")
-const OUT_FILE = resolve(__dirname, "../src/icons.json")
+const OUT_FILE = resolve(__dirname, "../src/manifest.json")
 
 console.log(`Building ${OUT_FILE}...`)
 

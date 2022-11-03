@@ -10,6 +10,7 @@ export const Add: Icon
 export const Apartment: Icon
 export const Apartment: Icon
 export const Archive: Icon
+export const Arrow: Icon
 export const Bath: Icon
 export const Bed: Icon
 export const BestPrice: Icon
