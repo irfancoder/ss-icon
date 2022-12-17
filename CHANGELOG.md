@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/irfancoder/ss-icon/compare/v1.0.11...v1.1.0) (2022-12-17)
+
+
+### Features
+
+* support cjs ([4fe7ec6](https://github.com/irfancoder/ss-icon/commit/4fe7ec6f109f497c55ff3f5f1e6a6e384565a415))
+
 ## [1.0.11](https://github.com/irfancoder/ss-icon/compare/v1.0.10...v1.0.11) (2022-12-17)
 
 
