@@ -32,7 +32,7 @@ Now you can install the package as usual.
 
 Example:
 
-```js
+```jsx
 import { Add } from '@irfancoder/ss-icon/outline'
 import { User } from '@irfancoder/ss-icon/bold'
 

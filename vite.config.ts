@@ -16,7 +16,6 @@ export default defineConfig({
     outDir: "dist",
     rollupOptions: {
       treeshake: true,
-      external: ["react"],
       output: {
         format: "esm",
         esModule: true,

@@ -3,7 +3,7 @@
 import { resolve, dirname, basename, join, extname } from "path"
 import { readdirSync, readFileSync, writeFileSync } from "fs"
 import { fileURLToPath } from "url"
-import cheerio from "cheerio"
+import { load } from "cheerio"
 import { minify } from "html-minifier"
 
 /**
@@ -32,7 +32,7 @@ function buildIconsObject(svgFiles, getSvg) {
  * @returns {string}
  */
 function getSvgContents(svg) {
-  const $ = cheerio.load(svg)
+  const $ = load(svg)
   return minify($("svg").html(), { collapseWhitespace: true })
 }
 
