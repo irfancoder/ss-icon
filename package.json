@@ -2,7 +2,7 @@
   "name": "@irfancoder/ss-icon",
   "description": "Icon component library. Contains scripts to convert SVGs into React component.",
   "version": "1.0.10",
-  "type": "module",
+  "main": "/dist/src/ss-icon.cjs.js",
   "types": "index.d.ts",
   "author": {
     "name": "irfanismail",
@@ -43,9 +43,9 @@
     "vite": "3.2.0-beta.2"
   },
   "exports": {
-    ".": "./dist/src/ss-icon.es.js",
-    "./outline": "./dist/src/ss-icon.es.js",
-    "./bold": "./dist/src/ss-icon.es2.js"
+    ".": "./dist/src/ss-icon.cjs.js",
+    "./outline": "./dist/src/ss-icon.cjs.js",
+    "./bold": "./dist/src/ss-icon.cjs2.js"
   },
   "typesVersions": {
     "*": {

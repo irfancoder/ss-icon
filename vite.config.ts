@@ -11,7 +11,7 @@ export default defineConfig({
       entry: ["./src/outline.ts", "./src/bold.ts"],
       name: "ss-icon",
       fileName: (format) => `ss-icon.${format}.js`,
-      formats: ["es"],
+      formats: ["es", "cjs"],
     },
     outDir: "dist",
     rollupOptions: {
