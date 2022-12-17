@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.11](https://github.com/irfancoder/ss-icon/compare/v1.0.10...v1.0.11) (2022-12-17)
+
+
+### Bug Fixes
+
+* deprecated & external react ([8a16bbd](https://github.com/irfancoder/ss-icon/commit/8a16bbd7c91561edf8676f7c639f4e976b0c5bab))
+
 ## [1.0.10](https://github.com/irfancoder/ss-icon/compare/v1.0.9...v1.0.10) (2022-11-03)
 
 
